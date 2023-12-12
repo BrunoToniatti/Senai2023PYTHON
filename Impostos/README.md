@@ -2,14 +2,14 @@
 Bem-vindo(a) ao programa Calculo de impostos, neste programa você calcular os impostos similar ao da receita federal.
 Existe três arquivos:
 
-### main.py
+## main.py
 O código onde você pode mexer pelo terminal.
 
-### IR.py:
+## IR.py:
 Onde contém os valores e os IF do código, onde está o processamento do código.
 
-### irGUI:
-Similar ao main.py so que com visual usando o PySimpleGUI.
+## irGUI:
+Similar ao main.py so que com visual usando o PySimpleGUI. (OBS: para usar este arquivo necessita baixar a biblioteca do PySimpleGUi)
 
 # Como executar
 ## Clone o arquivo
