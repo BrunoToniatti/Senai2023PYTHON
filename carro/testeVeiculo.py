@@ -15,3 +15,12 @@ for i in range(0, 200):
 #Exibindo a minha caranga acelerada
 print('\n\t\t\t -- Minha Caranga Acelerada --\n')
 print(minhaCaranga)
+
+
+# Freando minha caranga
+minhaCaranga.frear()
+
+#Exibindo a minha caranga freada
+print('\n\t\t\t -- Minha Caranga Freada --\n')
+print(minhaCaranga)
+
