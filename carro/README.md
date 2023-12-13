@@ -1,19 +1,18 @@
-
-# Controle de carro
-Bem-vindo(a) ao programa controle de alunos, neste programa você consegue controlar e administrar os alunos em curso ou escolas
+# Carros
+Bem-vindo(a) ao programa Carros neste programa você consegue mostrar um veiculo e sua velocida, pare simples mas desenvolvemos com classe de objeto
 
 # Como executar
 ## Clone o arquivo
 ```
-git clone https://github.com/BrunoToniatti/Senai2023PYTHON/edit/main/Controle_de_alunos
+git clone https://github.com/BrunoToniatti/Senai2023PYTHON/edit/main/carro
 ```
 ## Navegue até a pasta
 ```
-cd \Controle_de_alunos
+cd \carro
 ```
 ## Execute o programa
 ```
-python cadastro.py
+python testeVeiculo.py
 ```
 
 # Agradecimento
