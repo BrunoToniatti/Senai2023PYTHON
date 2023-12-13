@@ -1,8 +1,7 @@
-# Classe Veiculo
+# Classe Veículo
 
 class Veiculo(object):
-
-    # Método construtor
+    # Médoto construtor
     def __init__(self, marca, modelo, cor, velocidade):
         self.marca = marca
         self.modelo = modelo
@@ -34,13 +33,17 @@ class Veiculo(object):
     def getVelocidade(self):
         return self.velocidade
 
-
     # Retorno de dados da classe
     def __str__(self):
-        return (
+        return(
             '\n Marca: ' + str(self.getMarca()) +
             '\n Modelo: ' + str(self.getModelo()) +
             '\n Cor: ' + str(self.getCor()) +
             '\n Velocidade: ' + str(self.getVelocidade()) + 'km\h'
         )
 
+    # Método acelerar
+    def acelerar(self):
+        if self.velocidade < 120:
+            self.velocidade+=1
+        # self.velocidade = self.velocidade + 1
